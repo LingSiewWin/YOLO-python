@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 41
+names: ['AMD logo', 'AMD logo with text', 'AMD logo with text and Radeon with text', 'AMD logo with text and Ryzen with text', 'AMD old logo -1980 -1990-', 'AMD text', 'APPLE logo', 'ASUS logo', 'Acer logo', 'Amazon logo', 'Amazon text', 'DELL logo', 'Google', 'HP logo', 'HP text', 'Intel logo', 'Intel logo with text', 'Intel text', 'John Doe', 'Lenovo logo withtext', 'Lenovo text', 'Linux logo', 'Meta logo', 'Microsoft logo', 'NVIDIA logo', 'NVIDIA logo with text', 'Not AMD logo', 'Not Ryzen logo', 'Nvidia text', 'Oracle logo', 'Radeon text', 'Ryzen AI chip', 'Ryzen logo', 'Ryzen logo with text', 'Ryzen text', 'Samsung logo', 'Windows 11', 'Windows 11 text', 'XILINX logo', 'XILINX logo with text', 'XILINX text']
+
+roboflow:
+  workspace: logo-bplam
+  project: test1-pz9h5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/logo-bplam/test1-pz9h5/dataset/1
